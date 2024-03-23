@@ -1,0 +1,17 @@
+===== 메소드
+instancemethod
+:: 기본
+:: 인스턴스 각각의 메소드
+ex: class Class:
+    inst.method()
+
+classmethod
+:: 클래스의 인스턴스들을 모두 관할하는 메소드
+ex: class Class:
+    inst1의 val = 1
+    inst2의 val = 2
+    Class.sum() = 3
+
+staticmethod
+:: 인스턴스 없이 사용 가능한 메소드
+ex: class.print()

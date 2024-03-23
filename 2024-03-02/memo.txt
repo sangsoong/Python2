@@ -1,0 +1,39 @@
+===== 파일 입출력 
+open()
+help()
+
+=====
+위치인자 방식
+:: open(file='C://path.txt', mode='mode')
+
+키워드인자 방식
+::open('C://path.txt', 'mode')
+
+===== 모드
+r
+:: read(읽기)
+
+w
+:: write(쓰기)
+
+a
+:: append(추가)
+
+===== 파일 위치
+test.txt
+:: .\생략, 현위치의 test.txt
+
+.\test.txt
+:: 현위치의 test.txt
+
+..\test.txt
+:: 한단계 위의 test.txt
+
+=====
+직렬화(serialize/encoding)
+
+역직렬화(deserialize/decoding)
+
+=====
+# 파이썬의 모든것은 객체
+# 클래스로 구현된 객체를 인스턴스라 한다

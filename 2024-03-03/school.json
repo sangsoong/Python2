@@ -1,0 +1,19 @@
+[
+    {
+        "school":"highschool",
+        "students":[
+             {
+                "name":"kim",
+                "age":"17"
+             },
+             {
+                "name":"lee",
+                "age":"18"
+             },
+             {
+                "name":"park",
+                "age":"19"
+             }
+        ]
+    }
+]
